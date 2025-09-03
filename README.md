@@ -30,7 +30,7 @@ This configuration includes a number of features and customizations, including:
 
 2.  **Clone this repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git ~/.tmux
+    git clone https://github.com/Justin-Diner/tmux_config ~/.tmux
     ```
 
 3.  **Create a symbolic link to the configuration file:**
@@ -38,6 +38,7 @@ This configuration includes a number of features and customizations, including:
     ln -s ~/.tmux/tmux.conf ~/.tmux.conf
     ```
 
+    * This allows you to push your own tmux.conf to Github. Doing this allows you to customize and use your own config on any computer. You can skip this step and directly edit the `~/.tmux.conf` on your PC. 
 4.  **Start tmux:**
     ```bash
     tmux
